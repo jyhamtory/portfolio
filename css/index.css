@@ -203,7 +203,7 @@ body{
 }
 
 
-.btn{
+.button{
   display:inline-block;
   padding:7px 30px;
   background-color: #333;
@@ -211,24 +211,56 @@ body{
   color:#fff;
   font-size: 14px;
   text-decoration: none;
+  transition:0.3s;
+}
+
+.button:hover{
+  background-color: #000;
 }
 
 .right{
   width:60%;
   height:100%;
   color:#333;
+  position:relative;
 }
 
 .right .imgbox{
   width:100%;
   height:100%;
   cursor: pointer;
+  position:absolute;
+  top:0;
+  left:0;
 }
 
 .right .imgbox img{
   width:100%;
 }
 
+.right .hoverbox{
+  width:100%;
+  height:100%;
+  background-color: rgba(0,0,0,0.35);
+  opacity: 0;
+  position:absolute;
+  top:0;
+  left:0;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right .hoverbox:hover{
+  background-color: rgba(0,0,0,0.35);
+  opacity: 1;
+}
+
+.right i{
+  font-size: 40px;
+  color:#fff;
+}
 
 /*section3 - Open Api*/
 .section3 {

@@ -1,7 +1,7 @@
 $(function(){
 	/* section1 */
 	$(".page1").mouseenter(function(){
-		$(".page1 img").stop().animate({marginTop:-2060},4000);
+		$(".page1 img").stop().animate({marginTop:-2060},5000);
 
 	}).mouseleave(function(){
 		$(".page1 img").stop().animate({marginTop:0},3000);
@@ -28,7 +28,7 @@ $(function(){
 
 	/* section4 */
 	$(".page4").mouseenter(function(){
-		$(".page4 img").stop().animate({marginTop:-2330},4000);
+		$(".page4 img").stop().animate({marginTop:-2330},5000);
 
 	}).mouseleave(function(){
 		$(".page4 img").stop().animate({marginTop:0},3000);
