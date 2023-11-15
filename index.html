@@ -7,13 +7,13 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Jiyun Portfolio</title>
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 	<!-- FONT -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
 		href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800;900&family=Raleway:ital,wght@0,500;0,600;0,700;0,800;1,800&display=swap"
 		rel="stylesheet">
-
 	<script src="https://kit.fontawesome.com/db0e422e76.js" crossorigin="anonymous"></script>
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/full-page-scroll.css">
@@ -22,14 +22,16 @@
 	<!-- SCRIPT -->
 	<script src="js/full-page-scroll.js"></script>
 	<script src="js/info.js"></script>
+	<script src="js/pageScroll.js"></script>
 
 </head>
 
 <body>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 	<div id="main" class="scroll-container">
 		<!-- 메인 -->
 		<section class="section1">
-			<section class="wrapper">
+			<div class="wrapper">
 				<div id="stars1"></div>
 				<div id="stars2"></div>
 				<div id="stars3"></div>
@@ -54,7 +56,7 @@
 					<p>HTML / CSS / JQUERY / JAVASCRIPT / OPEN API / JSON / AJAX / TYPESCRIPT / REACT / RESPONSIVE WEB SITE /
 						MYSQL / NODE.JS</p>
 				</div>
-			</section>
+			</div>
 		</section>
 
 		<!-- project1 -->
@@ -85,7 +87,7 @@
 
 							테니스의 활동적인 이미지를 강조하기 위해,<br>
 							컬러풀한 색감의 사진과 상품들을 상단에 배치하였습니다.<br><br>
-							
+
 							Component, Props, State 등 React의 주요 개념들을 습득하였고,<br> React.Router를 통한 라우팅 방법을 익혔습니다.<br>
 							TypeScript를 통해 변수의 타입을 명시하여, 컴파일 에러를 감소시켰습니다.<br><br>
 							Bootstrap과 Swiper를 통해 반응형 웹사이트로 구성하였습니다.<br>
@@ -94,8 +96,10 @@
 					<a href="https://jyhamtory.github.io/tennisfolio/" target="_blank" class="btn">MAIN PAGE</a>
 				</div>
 				<div class="right">
-					<div class="imgbox">
-						<img src="img/react.png">
+					<div class="imgbox page1">
+						<a href="https://jyhamtory.github.io/tennisfolio/" target="_blank">
+							<img src="img/react.png" alt="profile">
+						</a>
 					</div>
 					<div class="hoverbox">
 					</div>
@@ -115,6 +119,7 @@
 							<li>#jQuery</li>
 							<li>#KAKAO Open Api</li>
 							<li>#Json</li>
+							<li>#Ajax</li>
 						</ul>
 					</div>
 					<div class="mid">
@@ -130,7 +135,7 @@
 
 							페이지 내의 도서 내용들은 KAKAO에서 제공하는<br>
 							Open API를 사용하였습니다.<br><br>
-							
+
 							jQuery를 활용하여 네비게이션, 슬라이더 그리고 다채로운<br>
 							상품 리스트 등의 다양한 인터렉션 요소를 배치하였습니다.<br><br>
 							선택한 도서의 정보, 내용, 리뷰 등의 정보를 제공하는<br>
@@ -141,8 +146,10 @@
 					<a href="https://jyhamtory.github.io/kyobobook/sub.html" target="_blank" class="btn">SUB PAGE</a>
 				</div>
 				<div class="right">
-					<div class="imgbox">
-						<img src="img/kakao_api.png">
+					<div class="imgbox page2">
+						<a href="https://jyhamtory.github.io/kyobobook/" target="_blank">
+							<img src="img/kakao_api.png">
+						</a>
 					</div>
 					<div class="hoverbox">
 					</div>
@@ -150,6 +157,7 @@
 			</div>
 		</section>
 
+		<!-- project3 -->
 		<section class="section4">
 			<div class="sectionWrap">
 				<div class="left">
@@ -177,7 +185,7 @@
 
 							미디어쿼리를 사용하여, 접속하는 기기의 디스플레이 크기에 따라<br>
 							화면의 크기가 변화하는 반응형 웹사이트로 제작하였습니다.<br><br>
-							
+
 							바다 이미지를 메인에 배치하여 <br>
 							광활하게 넓은 음원 시장을 표현하였습니다.<br><br>
 							블로그 형식의 Sub Page도 함께 제작하였습니다.<br>
@@ -187,8 +195,10 @@
 					<a href="https://jyhamtory.github.io/micdrop/sub.html" target="_blank" class="btn">SUB PAGE</a>
 				</div>
 				<div class="right">
-					<div class="imgbox">
-						<img src="img/responsive.png">
+					<div class="imgbox page3">
+						<a href="https://jyhamtory.github.io/micdrop/" target="_blank">
+							<img src="img/responsive.png">
+						</a>
 					</div>
 					<div class="hoverbox">
 					</div>
@@ -196,13 +206,21 @@
 			</div>
 		</section>
 
+		<!-- project4 -->
 		<section class="section5">
 			<div class="sectionWrap">
 				<div class="left">
 					<div class="top">
 						<h2 class="project">PROJECT <span>04</span></h2>
+						<span class="period">2023.08.04 ~ 2023.08.10</span>
 						<h3 class="projectTitle">LFMall</h3>
-						<p class="use">Shopping Mall (Json / Ajax)</p>
+						<ul class="use">
+							<li>#HTML5</li>
+							<li>#CSS3</li>
+							<li>#JavaScript</li>
+							<li>#Json</li>
+							<li>#Ajax</li>
+						</ul>
 					</div>
 					<div class="mid">
 						<p class="bold">POINT COLOR</p>
@@ -213,18 +231,23 @@
 						</ul>
 					</div>
 					<div class="bottom">
-						<p>언론·출판은 타인의 명예나 권리 또는 공중도덕이나 사회윤리를 침해하여서는 아니된다. 언론·출판이 타인의 명예나 권리를 침해한 때에는 피해자는 이에 대한 피해의 배상을 청구할 수 있다.
-							<br><br>
+						<p>국내 프리미엄 브랜드 쇼핑몰 "LFMall"입니다.<br><br>
 
-							국채를 모집하거나 예산외에 국가의 부담이 될 계약을 체결하려 할 때에는 정부는 미리 국회의 의결을 얻어야 한다. 대통령은 헌법과 법률이 정하는 바에 의하여 국군을 통수한다.
+							반복적인 레이아웃의 상품 이미지는<br>
+							Json과 Ajax를 활용하여 배치하였습니다.<br><br>
 
-							대법원장의 임기는 6년으로 하며, 중임할 수 없다. 모든 국민은 행위시의 법률에 의하여 범죄를 구성하지 아니하는 행위로 소추되지 아니하며, 동일한 범죄에 대하여 거듭 처벌받지 아니한다.
+							HTML의 float 속성을 사용하여 레이아웃을 구성하였습니다.<br>
+							상품 구매 페이지인 Sub Page도 함께 제작하였습니다.
 						</p>
 					</div>
+					<a href="https://jyhamtory.github.io/lfmall/" target="_blank" class="btn">MAIN PAGE</a>
+					<a href="https://jyhamtory.github.io/lfmall/sub.html" target="_blank" class="btn">SUB PAGE</a>
 				</div>
 				<div class="right">
-					<div class="imgbox">
-						<img src="img/html_css.png">
+					<div class="imgbox page4">
+						<a href="https://jyhamtory.github.io/lfmall/" target="_blank">
+							<img src="img/html_css.png">
+						</a>
 					</div>
 					<div class="hoverbox">
 					</div>
@@ -232,6 +255,114 @@
 			</div>
 		</section>
 
+		<section class="section6">
+			<div class="wrapper">
+				<div id="stars1"></div>
+				<div id="stars2"></div>
+				<div id="stars3"></div>
+				<div class="left">
+					<h1>About Me</h1>
+					<div class="photo"></div>
+					<div class="contact">
+						<h3>박지윤 <span>Park Ji Yun</span></h3>
+						<table>
+							<tr>
+								<th>Birth</th>
+								<td>1999.11.10</td>
+							</tr>
+							<tr>
+								<th>Address</th>
+								<td>Suwon-si</td>
+							</tr>
+							<tr>
+								<th>Phone</th>
+								<td>010 2456 3897</td>
+							</tr>
+							<tr>
+								<th>E-mail</th>
+								<td>jyhamtory@gmail.com</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="right">
+					<div class="box">
+						<h3>EDUCATION</h3>
+						<ul>
+							<li><span class="bold">2018</span>삼일공업고등학교 졸업</li>
+							<li><span class="bold">2024</span>경기대학교 경영정보학과 졸업</li>
+						</ul>
+						<h3>LICENCE</h3>
+						<ul>
+							<li><span class="bold">2016</span>정보처리 기능사</li>
+							<li><span class="bold">2017</span>컴퓨터활용능력 2급</li>
+							<li><span class="bold">2022</span>SQL 개발자</li>
+						</ul>
+					</div>
+					<div class="box right2">
+						<h3>TRAINING</h3>
+						<ul>
+							<li>이젠컴퓨터아트학원<br>
+								프론트엔드 개발 및 실무프로젝트 구현 과정 수료(2023년 12월)
+							</li>
+						</ul>
+						<h3>SKILL</h3>
+						<div class="accordion accordion-flush" id="accordionFlushExample">
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+										HTML / CSS
+									</button>
+								</h2>
+								<div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+									<div class="accordion-body">웹 표준성을 준수하며 마크업 할 수 있습니다. CSS를 사용하여 레이아웃을 배치하고 디자인 요소를 정의할 수 있습니다. Media Query를 사용해 반응형 웹을 제작할 수 있습니다.</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+										JAVASCRIPT / JQUERY
+									</button>
+								</h2>
+								<div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+									<div class="accordion-body"> 변수, 데이터 유형, 연산자, 함수, 객체, 배열 등 JavaScript의 기본 개념을 이해하고, 다양한 상황에서 적용할 수 있습니다. JavaScript를 사용하여 DOM을 조작할 수 있습니다. JQuery 라이브러리와 메소드, 애니메이션을 활용할 수 있습니다. 
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+										Open API / JSON / AJAX
+									</button>
+								</h2>
+								<div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+									<div class="accordion-body">Json의 구조를 파악하고, JavaScript에서 데이터로 변환해 활용할 수 있습니다. Ajax를 사용해 데이터를 요청하고 웹페이지에 출력할 수 있습니다. Open API를 프로젝트에 활용할 수 있습니다. 
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+										REACT / TYPESCRIPT
+									</button>
+								</h2>
+								<div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+									<div class="accordion-body">Component, Props, State 등 React의 주요 개념들을 습득하여, 범용적인 컴포넌트 설계를 할 수 있습니다. React.Router을 통해 사용자가 요청한 URL에 맞는 페이지를 라우팅할 수 있습니다. TypeScript로 변수에 타입을 지정하여 자바스크립트에서 발생하는 버그를 줄일 수 있습니다.
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+										MySQL
+									</button>
+								</h2>
+								<div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+									<div class="accordion-body"> 쿼리문을 통해 데이터베이스를 생성하고, CRUD할 수 있습니다. JOIN을 통해 테이블을 연결할 수 있습니다.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	</div>
 	<script>
 		new fullScroll({
